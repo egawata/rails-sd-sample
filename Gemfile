@@ -68,5 +68,5 @@ group :development do
 end
 
 group :production do
-  gem 'web-console', '~> 2.0'
+  gem 'web-console', '>= 3.3.0'
 end
