@@ -66,3 +66,7 @@ group :development do
   gem 'capistrano3-puma', '~> 3.1.1'
   gem 'capistrano-rbenv', '~> 2.1'
 end
+
+group :production do
+  gem 'web-console', '~> 2.0'
+end
