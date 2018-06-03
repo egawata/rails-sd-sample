@@ -37,3 +37,7 @@ set :repo_url, "git@github.com:egawata/rails-sd-sample.git"
 
 # Uncomment the following to require manually verifying the host key before first deploy.
 # set :ssh_options, verify_host_key: :secure
+
+# for using rbenv (added 2018/06/03)
+set :rbenv_type, :user
+set :rbenv_ruby, '2.5.1'
